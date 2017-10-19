@@ -1,0 +1,23 @@
+########### Dicas Bootstrap ###########
+
+Para garantir a renderização adequada e sensíbilidade ao toque, adicione a meta tag viewport dentro do <head>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+Você pode desativar a ampliação do zoom em dispositivos móveis adicionando user-scalable=no na meta tag viewport. Isso desativa o zoom, ou seja, os usuários só são capazes de trabalhar com a barra de rolagem:
+
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+Tipografia 
+
+Definimos background-color: #fff; no body
+Usamos atributos @font-family-base, @font-size-base, e @line-height-base como nossa base de tipografia
+Definimos globalmente a cor do link via @link-color e underline apenas no :hover
+Esses estilos podem ser encontrados em scaffolding.less
+
+Normalize.css para melhorar desempenho de seu site
+
+
+
+
+########### Dicas Bootstrap ###########
