@@ -1,0 +1,1 @@
+Abra o phpMyadmin , crie um novo banco com nome de "db_itens" e dentro dele import o arquivo SQL
